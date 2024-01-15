@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University of Stirling Sports Membership Application Form</title>
+<style>
+  /* CSS styles would go here */
+</style>
+<script>
+  // JavaScript functionality would go here
+</script>
+</head>
+<body>
+<form>
+    <h1>UNIVERSITY OF STIRLING</h1>
+    <h2>SPORT</h2>
+    <p>Motivation for joining us?</p>
+    <textarea name="motivation" rows="4"></textarea>
+
+    <h3>Application form</h3>
+    
+    <fieldset>
+    <legend>Member details</legend>
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname"><br>
+    
+    <label for="firstName">First name:</label>
+    <input type="text" id="firstName" name="firstName"><br>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4"></textarea><br>
+
+    <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode"><br>
+
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" name="dob"><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="telephone">Telephone (home):</label>
+    <input type="tel" id="telephone" name="telephone"><br>
+
+    <label for="mobile">Telephone (mobile):</label>
+    <input type="tel" id="mobile" name="mobile"><br>
+    </fieldset>
+    
+    <fieldset>
+    <legend>Membership category</legend>
+    <input type="radio" id="community" name="membershipCategory" value="community">
+    <label for="community">Community</label><br>
+
+    <input type="radio" id="alumni" name="membershipCategory" value="alumni">
+    <label for="alumni">Alumni</label><br>
+
+    <input type="radio" id="corporate" name="membershipCategory" value="corporate">
+    <label for="corporate">Corporate</label><br>
+    
+    <!-- Add more radio buttons as per categories shown in the image -->
+    </fieldset>
+    
+    <fieldset>
+    <legend>Non-student</legend>
+    <label for="fullTime">Non-student:</label>
+    <input type="checkbox" id="fullTime" name="nonStudent" value="fullTime"><br>
+
+    <label for="partTime">One semester:</label>
+    <input type="checkbox" id="partTime" name="nonStudent" value="partTime"><br>
+    </fieldset>
+    
+    <!-- Add more sections and input fields as per form structure in the image -->
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
